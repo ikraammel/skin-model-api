@@ -1,0 +1,21 @@
+{
+  "class_names": [
+    "acne",
+    "dark spots",
+    "wrinkles",
+    "pores",
+    "blackheades"
+  ],
+  "class_dict": {
+    "acne": 0,
+    "dark spots": 1,
+    "wrinkles": 2,
+    "pores": 3,
+    "blackheades": 4
+  },
+  "image_size": [
+    256,
+    256
+  ],
+  "num_classes": 5
+}
