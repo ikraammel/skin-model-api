@@ -15,7 +15,7 @@ MODEL_PATH     = 'model/skin_model.h5'
 CLASS_INFO_PATH = 'class_info.json'
 
 print("⏳ Chargement du modèle...")
-model = tf.keras.models.load_model(MODEL_PATH)
+model = tf.keras.models.load_model(MODEL_PATH, compile=False)
 
 with open(CLASS_INFO_PATH) as f:
     class_info = json.load(f)
