@@ -3,4 +3,5 @@ tflite-runtime==2.14.0
 numpy
 pillow
 flask-cors
+requests
 gunicorn
